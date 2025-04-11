@@ -1,16 +1,16 @@
 # LAEGestor e LAEVendas - Sistema de Gestão e Vendas
 
-Bem-vindo ao sistema LAEGestor e LAEVendas. Este é o meu projeto de gestão de vendas e controle de estoque, que já está online e disponível para acesso.
+Bem-vindo ao sistema **LAEGestor e LAEVendas**. Este projeto foi desenvolvido como uma solução de gestão de vendas e controle de estoque. Ele está completamente funcional e disponível para acesso online. Este sistema foi construído utilizando **HTML, PHP, MySQL, CSS, Bootstrap e JavaScript**.
 
 ---
 
 ## Acesso ao Sistema
 
-O sistema possui duas interfaces principais:
+O sistema possui duas interfaces principais para diferentes perfis de usuário:
 
 ### 1. **LAEGestor (Administração)**
 
-Aqui, você pode acessar o painel de administração para gerenciar todos os aspectos do sistema.
+O painel de administração permite que você gerencie todos os aspectos do sistema, incluindo usuários, produtos, vendas e configurações.
 
 - **Link para Login (Admin):** [Acessar LAEGestor](http://laegestor.myartsonline.com/)
 - **Credenciais de Login (Admin):**
@@ -19,7 +19,7 @@ Aqui, você pode acessar o painel de administração para gerenciar todos os asp
 
 ### 2. **LAEVendas (Vendedores)**
 
-Aqui, os vendedores podem gerenciar as vendas e realizar transações de forma simples.
+O painel de vendas é destinado aos vendedores, permitindo que registrem vendas e gerenciem transações de forma simples.
 
 - **Link para Login (Vendedor):** [Acessar LAEVendas](http://laevendas.myartsonline.com/)
 - **Credenciais de Login (Vendedor):**
@@ -28,17 +28,41 @@ Aqui, os vendedores podem gerenciar as vendas e realizar transações de forma s
 
 ---
 
+## Configuração do Sistema
+
+Para que o sistema funcione corretamente em seu ambiente, é necessário realizar algumas configurações iniciais.
+
+### 1. **Configuração do Banco de Dados**
+
+O sistema utiliza o MySQL para armazenar as informações. Para configurar a conexão ao banco de dados, você precisa alterar as credenciais no arquivo `db.php` localizado nas pastas de ambos os sistemas **LAEGestor** e **LAEVendas**.
+
+- **Arquivo de Configuração:**
+  - Nos arquivos : `db.php`
+  - Modifique as configurações de **host**, **usuário**, **senha** e **nome do banco de dados** para que correspondam ao seu ambiente.
+
+### 2. **Requisitos Técnicos**
+
+O sistema foi desenvolvido utilizando as seguintes tecnologias:
+
+- **Frontend**: HTML, CSS (Bootstrap), JavaScript
+- **Backend**: PHP (com suporte a MySQL)
+- **Banco de Dados**: MySQL
+
+Certifique-se de que o servidor web (Apache ou Nginx) tenha suporte a **PHP** e esteja configurado para executar o sistema adequadamente. O sistema também utiliza o **Bootstrap** para estilização responsiva, garantindo que o layout seja adaptável a diferentes dispositivos.
+
+---
+
 ## Aviso de Segurança
 
-**Importante:** Devido à hospedagem gratuita que estou utilizando, o sistema pode ser marcado como "inseguro" ao acessá-lo. Isso acontece porque a hospedagem não oferece suporte a SSL (Secure Socket Layer), o que significa que a comunicação entre o navegador e o servidor não é criptografada. 
+Devido à hospedagem gratuita utilizada, o sistema pode ser sinalizado como "inseguro" ao ser acessado, já que o serviço não oferece suporte a **SSL** (Secure Socket Layer). Embora isso não comprometa a integridade do sistema, é importante que você tenha em mente que a comunicação entre o navegador e o servidor não é criptografada.
 
-Recomendo que utilize o sistema com cautela, especialmente em ambientes de produção ou quando trabalhar com dados sensíveis. O uso de SSL é fundamental para garantir maior segurança.
+Se você planeja usar o sistema em um ambiente de produção ou com dados sensíveis, recomendo a implementação de **SSL** para garantir a segurança da comunicação.
 
 ---
 
 ## Contato
 
-Caso tenha alguma dúvida ou precise de suporte, pode entrar em contato comigo diretamente:
+Caso tenha alguma dúvida ou precise de suporte, estou à disposição para ajudar:
 
 - **Nome:** Alcedo Madruga
 - **Telefone:** +244 921 703 737
@@ -46,38 +70,35 @@ Caso tenha alguma dúvida ou precise de suporte, pode entrar em contato comigo d
 
 ---
 
-## Guia para Acessar o Sistema
+## Guia de Uso
 
-1. **Acesse o Link**:
+1. **Acesse o Link de Acesso**:
    - Para o **LAEGestor (Admin)**: [http://laegestor.myartsonline.com/](http://laegestor.myartsonline.com/)
    - Para o **LAEVendas (Vendedor)**: [http://laevendas.myartsonline.com/](http://laevendas.myartsonline.com/)
-   
+
 2. **Login**:
    - Para **Admin**: Insira as credenciais de administrador.
    - Para **Vendedor**: Insira as credenciais de vendedor.
 
 3. **Navegação**:
    - **LAEGestor**: Aqui, você pode gerenciar usuários, produtos, vendas e configurações do sistema.
-   - **LAEVendas**: Os vendedores podem registrar vendas e acessar informações limitadas sobre o estoque e transações.
-
-4. **Aviso de Segurança**:
-   - Como mencionei antes, o sistema pode apresentar um aviso de "site inseguro" devido à falta de SSL. Isso não significa que o sistema está comprometido, mas apenas que a comunicação não é criptografada.
+   - **LAEVendas**: O painel de vendas permite que os vendedores registrem novas vendas e visualizem o estoque.
 
 ---
 
 ## Sobre o Projeto
 
-Este sistema foi desenvolvido para ser uma solução simples e eficiente para a gestão de vendas e controle de estoque. A interface foi projetada para ser amigável e intuitiva, permitindo que tanto administradores quanto vendedores possam usar as ferramentas de forma fácil e rápida.
+Este sistema foi desenvolvido para ser uma solução simples e eficiente para a gestão de vendas e controle de estoque. A interface foi projetada com o objetivo de ser intuitiva e fácil de usar tanto para administradores quanto para vendedores.
 
 ---
 
 ## Licença
 
-Este projeto é de **licença gratuita**. Se quiser o código-fonte, é só entrar em contato comigo através do e-mail: [alcedodev05@gmail.com](mailto:alcedodev05@gmail.com).
+Este projeto é de **licença gratuita**. Se desejar obter o código-fonte ou quiser colaborar no desenvolvimento, entre em contato comigo pelo e-mail: [alcedodev05@gmail.com](mailto:alcedodev05@gmail.com).
 
 ---
 
 ## Como Contribuir
 
-Se você quiser contribuir para o projeto, fique à vontade para fazer um **fork** deste repositório, adicionar novas funcionalidades ou corrigir bugs. As **contribuições** são sempre bem-vindas!
+Se você quiser contribuir para o projeto, basta realizar um **fork** deste repositório e fazer as modificações que achar necessárias. As **contribuições** são sempre bem-vindas e apreciadas!
 
